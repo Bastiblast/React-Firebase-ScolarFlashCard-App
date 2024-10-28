@@ -1,0 +1,15 @@
+* {
+	box-sizing: border-box;
+}
+
+html {
+	@apply !bg-white !h-screen;
+}
+
+body {
+	@apply h-full bg-secondary text-primary-content;
+}
+
+#root {
+	@apply h-full
+}

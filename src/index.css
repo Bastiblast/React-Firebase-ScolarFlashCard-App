@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  @apply bg-primary
+}
+
+.fade-in {
+    color:blueviolet;
+	animation: fade-in 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3s forwards;
+}
+
+@keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
